@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    width: 100%;
+}
+
+.header {
+    width: 75vw;
+    margin: auto;
+    display: flex;
+}
+
+.heading {
+    width: 25%;
+    float: left;
+    padding: 3rem 0;
+}
+
+nav {
+    width: 75%;
+    height: auto;
+    padding: 3rem 0;
+}
+
+nav ul {
+    display: flex;
+    float: right;
+    margin-right: 2rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 1rem 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+
+.body {
+    width: 100%;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+.container div {
+    display: inline-block;
+    width: 33%;
+    padding: 2.5rem 5rem;
+    margin: 10rem auto;
+    background-color: #2b2933;
+    color: white;
+    text-align: center;
+}
+
+.container div img {
+    display: block;
+    margin: auto;
+    padding: 2rem 3rem;
+    height: 9rem;
+    border: 0.1rem solid red;
+    border-radius: 1rem;
+
+}
+
+.container div h3 {
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+
+.container div p {
+    padding: 2rem 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+button {
+    margin: 2rem 0;
+    padding: 1rem 5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    border: 0.1rem solid black;
+}
+
+
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 1.8rem;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.bars {
+    padding: 2.5rem 0;
+    display: none;
+}
+
+.bar1 {
+    background-color: black;
+    width: 40px;
+    height: 7px;
+    margin-bottom: 3px;
+    border-radius: 10000px;
+}
+.bar2 {
+    background-color: black;
+    width: 40px;
+    height: 7px;
+    margin-bottom: 3px;
+    border-radius: 10000px;
+}
+.bar3 {
+    background-color: black;
+    width: 40px;
+    height: 7px;
+    margin-top: 3px;
+    border-radius: 10000px;
+}

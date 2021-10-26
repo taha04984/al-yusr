@@ -1,0 +1,84 @@
+
+@media screen and (max-width: 1000px) {
+* {
+    box-sizing: border-box;
+}
+
+    .bars {
+        display: initial;
+    }
+
+    nav ul {
+        display: none;
+    }
+    
+    nav {
+        width: 50%;
+    }
+
+    .heading {
+        width: 50%;
+    }
+
+    
+    .body {
+        margin: 0;
+        padding: 5rem;
+    }
+
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    .container div {
+        display: block;
+        width: 100%;
+        margin: 5rem auto;
+        padding: 5rem 5rem;
+        background-color: #2b2933;
+        color: white;
+        text-align: center;
+    }
+    
+
+    .container div img {
+        display: block;
+        margin: auto;
+        padding: 2rem 3rem;
+        height: 9rem;
+        border: 0.1rem solid red;
+        border-radius: 1rem;
+    
+    }
+
+    
+.container div h3 {
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+
+
+.container div p {
+    padding: 2rem 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+
+
+button {
+    margin: 2rem 0;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    border: 0.1rem solid black;
+}
+
+footer {
+    padding: 5rem;
+    font-size: 2rem;
+}
+
+}
